@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>todo_app</h1>
+      <h1>Todo_app</h1>
       <p>Welcome to your new project!</p>
       <button onClick={() => setCount((count) => count + 1)}>
         Count: {count}

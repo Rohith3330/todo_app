@@ -1,0 +1,25 @@
+{
+  "name": "todo_app-backend",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "fastify": "^4.0.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/cors": "^2.8.13",
+    "typescript": "^5.0.0",
+    "tsx": "^3.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0"
+  }
+}

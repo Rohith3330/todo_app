@@ -1,0 +1,19 @@
+{
+  "name": "todo_app",
+  "version": "0.1.0",
+  "description": "A new project",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "type-check": "npm run type-check --workspaces",
+    "lint": "npm run lint --workspaces"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

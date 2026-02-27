@@ -8,7 +8,7 @@ await fastify.register(cors, {
 })
 
 fastify.get('/api/health', async (request, reply) => {
-  return { status: 'ok', service: 'Todo_app' }
+  return { status: 'ok', service: 'TODO' }
 })
 
 const port = parseInt(process.env.PORT || '3000', 10)

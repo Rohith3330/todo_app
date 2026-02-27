@@ -1,4 +1,4 @@
-# Todo_app
+# TODO
 
 A new project
 
